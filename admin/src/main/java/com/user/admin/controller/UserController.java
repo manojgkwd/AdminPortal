@@ -32,17 +32,17 @@ public class UserController
 		
 	}
 	
-	@RequestMapping(value = "/user", method = RequestMethod.GET)
-	public ResponseEntity<Map<String,Object>> userById()
-	{
-		List<UserDetailsDto> data = userService.getUsers();
-		Map<String,Object> response=new HashMap<String,Object>();
-		response.put("status", true);
-		response.put("data", data);
-		
-		return new ResponseEntity<Map<String,Object>>(response, HttpStatus.OK);
-		
-	}
+	/*
+	 * @RequestMapping(value = "/user", method = RequestMethod.GET) public
+	 * ResponseEntity<Map<String,Object>> userById() { List<UserDetailsDto> data =
+	 * userService.getUsers(); Map<String,Object> response=new
+	 * HashMap<String,Object>(); response.put("status", true); response.put("data",
+	 * data);
+	 * 
+	 * return new ResponseEntity<Map<String,Object>>(response, HttpStatus.OK);
+	 * 
+	 * }
+	 */
 	
 	
 	
