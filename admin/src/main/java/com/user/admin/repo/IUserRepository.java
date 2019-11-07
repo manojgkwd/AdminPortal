@@ -8,4 +8,10 @@ public interface IUserRepository
 {
 	public List<UserDetails> getUsers();
 	
+	public UserDetails getUserById(Long id);
+	
+	public void saveOrUpdateUser(UserDetails userDetails);
+	
+	public void deleteUser(Long id);
+	
 }

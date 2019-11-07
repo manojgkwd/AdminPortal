@@ -111,5 +111,4 @@ public class UserDetails
 	public void setIsActive(Boolean isActive) {
 		this.isActive = isActive;
 	}
-	
 }
